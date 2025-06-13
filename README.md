@@ -4,6 +4,6 @@
 
 docker compose up -d
 
-docker compose exec app bash
+<!-- docker compose exec app bash -->
 
-python main.py
+docker compose exec app python main.py
