@@ -1,3 +1,6 @@
+<!-- graphrag init --root /app/graphrag_project -->
+
+<!-- graphrag index --root /app/graphrag_project -->
 
 
 ### 步骤

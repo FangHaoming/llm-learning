@@ -7,6 +7,7 @@ WORKDIR /app
 # 安装系统依赖（根据项目需求调整）
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
+    curl \
     && rm -rf /var/lib/apt/lists/*
 
 # 安装 Poetry
