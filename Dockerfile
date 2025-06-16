@@ -18,6 +18,5 @@ RUN poetry config virtualenvs.create false
 
 # 复制依赖文件
 COPY . .
-
 # 安装生产依赖
 RUN poetry install --no-root
